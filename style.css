@@ -85,7 +85,7 @@ body {
 }
 
 #tempera {
-    width: 6rem !important;
+    width: 5rem !important;
     height: 4rem !important;
 }
 
@@ -115,4 +115,5 @@ body {
     justify-content: space-between;
     align-items: center;
     display: none;
+    margin-top: 4rem;
 }
