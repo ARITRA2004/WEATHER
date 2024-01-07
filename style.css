@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Livvic&family=Noto+Serif+Bengali&family=Poppins:wght@500&family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black !important;
+}
+
+body {
+    background-image: url('bgimage.avif');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow-y: hidden;
+}
+
+#container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    padding: 1.3rem;
+    height: 20rem;
+    width: 20rem;
+    /* border: 2px solid ; */
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    filter: blur(0px) !important;
+}
+
+#cityname {
+    border-radius: 10px;
+    height: 38px;
+    text-align: center;
+    width: 13rem;
+}
+
+#button {
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: 0px;
+}
+
+#button:hover{
+    cursor: pointer;
+}
+
+#text {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.temp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.3rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tempera {
+    width: 6rem !important;
+    height: 4rem !important;
+}
+
+#tempera {
+    width: 20px;
+    height: 20px;
+}
+
+.additions-details {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.wind-speed,
+.humidity,
+.max-temperature {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.another-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
