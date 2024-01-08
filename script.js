@@ -30,7 +30,7 @@ const getData = async(city) => {
     text.innerHTML = data.temp+"°C"
     windspeed.innerHTML = data.wind_speed = "km/h";
     humidity.innerHTML = data.humidity;
-    maxtemperature.innerHTML = data.max_temp;
+    maxtemperature.innerHTML = data.max_temp +"°C";
 
     if(data.cloud_pct === 0){
         image.style.backgroundImage = "url('clear.svg')";
